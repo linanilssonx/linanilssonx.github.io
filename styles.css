@@ -50,6 +50,17 @@ h1 {
 	margin-bottom: 1px;
 	color: #2c8759
 } 
+
+.rad1 {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.rad3 {
+    width: 500px;
+    margin: 0 auto;
+}
+
 .left-container {
 	display: inline-block;
     width: 200px;
