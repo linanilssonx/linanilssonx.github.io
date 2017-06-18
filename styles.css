@@ -21,8 +21,9 @@ body {
 	width: 35px;
 	height: auto;
 	position: relative;
-    left: -38px;
-    top: -14px;
+    left: -40px;
+    vertical-align: bottom;
+    display: inline-block;
 }
 
 p {
@@ -32,17 +33,27 @@ p {
 	margin-left: 10px;
 }
 
+.copyright {
+    display: inline-block;
+}
+
 h1 { 
 	color: #339966;
 	font-family: Arial Bold;
 	letter-spacing: 10px;
+    animation: blink 10s linear infinite;
 }
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
 .info {
 	background-color: #ffcf70;
     letter-spacing: 2px;
 	background: linear-gradient(to right, cornsilk, orange);	
 	padding: 30px 20px;
-    font-size: 17px;
+    font-size: 17px;    
 }
 
 .liten-rubrik {
@@ -129,6 +140,16 @@ a {
 	color: #2c8759;
 	text-decoration: none;
 }
+.footer {
+    border: 0 none;
+    border-top: 1px solid #339966;
+    background: none;
+    height: 0;
+    width: 100%;
+    position: absolute
+    bottom: 0px;
+}
+
 @media only screen and (min-widht: 645 px) {
 	.
 	}
